@@ -55,7 +55,10 @@ def gold_diagram_last_month():
     data = nbp_api.get_gold_last_count(10)
     x = [data_dict['data'] for data_dict in data]
     y = [data_dict['cena'] for data_dict in data]
-    plt.plot(x, y)
+    plt.plot(x, y, color='red')
+    plt.xlabel('Date')
+    plt.ylabel('Price')
+    plt.title('The value of gold')
     plt.show()
 
 gold_diagram_last_month()
