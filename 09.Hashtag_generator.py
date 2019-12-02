@@ -1,6 +1,9 @@
 import re
 
 def generate_hashtag(s):
+    """
+    the func returns a an inputed string with hashtag and upper case first letter of each word
+    """
     lst = []
     container = re.sub(r"[A-Za-z]+('[A-Za-z]+)?",
     lambda mo: mo.group(0)[0].upper() +
