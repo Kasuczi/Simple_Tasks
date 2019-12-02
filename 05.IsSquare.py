@@ -1,4 +1,7 @@
-def is_square(n):    
+def is_square(n):
+    """
+    the func returns True if it's a square number
+    """
     if n < 0:
         return False
     sqrt = n ** (1 / 2)
