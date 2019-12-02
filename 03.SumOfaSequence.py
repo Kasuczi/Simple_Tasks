@@ -1,4 +1,7 @@
 def sequence_sum(begin_number, end_number, step):
+    """
+    the func returns the sum of a sequence of integers.
+    """
     lst = []
     if begin_number > end_number:
         return 0
