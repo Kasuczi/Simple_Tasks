@@ -1,6 +1,6 @@
 def openOrSenior(data):
     """
-    the func returns the sum of the absolute value of each of the number's decimal digits
+    the func returns data depends on if a member is senior or regular
     """
     lst = ''
     for i in data:
