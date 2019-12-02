@@ -1,4 +1,7 @@
 def countBits(n):
+    """
+    the func returns the number of bits that are equal to one in the binary representation of that number.
+    """
     binary = bin(n)[2:]
     counter = 0
     
