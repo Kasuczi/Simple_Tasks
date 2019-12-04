@@ -1,4 +1,7 @@
 def snail(snail_map):
+    """
+    The func is checking the lenght of array and if it is not empty, sort numbers in snail style
+    """
     res = []
     if len(snail_map) == 0:
         return res
