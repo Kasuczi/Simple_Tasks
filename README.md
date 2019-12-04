@@ -57,3 +57,6 @@ If the input or the result is an empty string it must return false.
 
 10)
 Web scraper which is getting gold prices form the website of Polish national bank and returns it as a plot.
+
+11)
+The script takes a data from user and stores it as a dict object
