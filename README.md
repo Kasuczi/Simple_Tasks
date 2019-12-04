@@ -60,3 +60,6 @@ Web scraper which is getting gold prices form the website of Polish national ban
 
 11)
 The script takes a data from user and stores it as a dict object
+
+12)
+Given an n x n array, return the array elements arranged from outermost elements to the middle element, traveling clockwise.
